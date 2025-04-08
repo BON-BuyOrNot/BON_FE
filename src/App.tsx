@@ -1,11 +1,13 @@
+import { Header } from "./components/Header";
+import { Signin } from "./pages/signin";
 
 function App() {
-
   return (
-  <div className=' bg-slate-600 w-20 h-20'>
-    <p>frfr</p>
-  </div>
-  )
+    <>
+      <Header />
+      <Signin />
+    </>
+  );
 }
 
-export default App
+export default App;
